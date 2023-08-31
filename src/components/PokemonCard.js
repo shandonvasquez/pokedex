@@ -12,7 +12,8 @@ const PokemonCard = ({ pokemonUrl }) => {
 
   return (
     <Link to={`/pokedex/${pokemonsData.id}`}>
-     <div className="">
+     <div className="pokemon-types">
+      
      <div className={`pokemon-card ${pokemonsData.types?.[0].type.name}`}>
         <div className="pokemon-short-info">
           <p>#{("000" + pokemonsData.id).slice(-3)}</p>

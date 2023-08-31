@@ -95,3 +95,19 @@ ul {
     align-items: center;
   }
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+
+  bottom: 0;
+  width: 100%;
+}
+
+.page-item {
+  list-style: none;
+}
+
+.page-link {
+  margin: 0 5px;
+}

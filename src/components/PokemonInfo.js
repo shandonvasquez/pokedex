@@ -65,7 +65,8 @@ const PokemonInfo = () => {
         </div>
         <div className="stats">
           <h2>Stats</h2>
-          <div className="bars-containers">
+          
+          <div className="bars-containers" >
             {pokemon.stats?.map((pokemonStats) => (
               <div key={pokemonStats.stat.name} className="bar-stat">
                 <h3>{pokemonStats.stat.name}</h3>

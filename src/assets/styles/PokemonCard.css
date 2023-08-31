@@ -1,11 +1,14 @@
 .pokemon-card {
   width: 100%;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
   /* height: 150px; */
+}
+p {
+  color: #000;
 }
 
 li {
@@ -56,17 +59,14 @@ a {
   padding: 5px;
 }
 
-@media (min-width: 768px) {
-  .pokemon-card {
-    width: 320px;
-    margin: 0;
-    margin-top: 50px;
-    display: flex;
-
-    justify-content: space-between;
-    border-radius: 10px;
-    height: 140px;
-  }
+.pokemon-card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
 
 .ghost:hover {

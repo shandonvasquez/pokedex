@@ -95,6 +95,7 @@
 
 .general-stats > div {
   width: 33%;
+  margin: 0px 0px 20px 0px;
 }
 
 .general-stats {
@@ -148,6 +149,7 @@
 .stats h3 {
   font-size: 15px;
   width: 30%;
+  color: rgb(112, 110, 110);
 }
 
 .bars-containers {
@@ -163,19 +165,20 @@
 
 .bar-stat p {
   margin: 0px 0px 0px 10px;
+  color: rgb(82, 80, 80);
 }
 
 .progress-bar-container {
   width: 80%;
   display: flex;
   height: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(137, 137, 137, 0.5);
   border-radius: 10px;
 }
 
 .progress-bar-status {
   height: 20px;
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 10px;
 }
 
